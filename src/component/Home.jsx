@@ -10,7 +10,7 @@ const Home = () => {
       <Header ></Header>
     {
                 navigation.state === "loading" ? 
-                <p className="text-7xl">Loading........</p>: 
+                <p className="text-3xl items-center justify-center">Loading........</p>: 
                 <Outlet></Outlet>
             }
 
